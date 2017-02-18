@@ -1,6 +1,6 @@
 @-moz-document regexp("^(?!.*regex101)(?!.*91pu.com.tw/song).*$") {
     *:not([class*="icon"]):not(i) {
-        font-family: MyCustomFont, sans-serif !important;
+        font-family: MyCustomFont, 'Material Icons Extended',"FontAwesome", sans-serif !important;
     }
 
     @font-face {

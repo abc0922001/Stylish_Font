@@ -5,7 +5,7 @@
 
     @font-face {
         font-family: MyCustomFont;
-        /* ¦P¼Ëªº font-family */
+        /* åŒæ¨£çš„ font-family */
         font-style: normal;
         font-weight: 100;
         src: local("Noto Sans CJK TC Thin");
@@ -13,7 +13,7 @@
 
     @font-face {
         font-family: MyCustomFont;
-        /* ¦P¼Ëªº font-family */
+        /* åŒæ¨£çš„ font-family */
         font-style: normal;
         font-weight: 200;
         src: local("Noto Sans CJK TC Light");
@@ -21,7 +21,7 @@
 
     @font-face {
         font-family: MyCustomFont;
-        /* ¦P¼Ëªº font-family */
+        /* åŒæ¨£çš„ font-family */
         font-style: normal;
         font-weight: 300;
         src: local("Noto Sans CJK TC DemiLight");
@@ -29,7 +29,7 @@
 
     @font-face {
         font-family: MyCustomFont;
-        /* ¦P¼Ëªº font-family */
+        /* åŒæ¨£çš„ font-family */
         font-style: normal;
         font-weight: 400;
         src: local("Noto Sans CJK TC Regular");
@@ -37,7 +37,7 @@
 
     @font-face {
         font-family: MyCustomFont;
-        /* ¦P¼Ëªº font-family */
+        /* åŒæ¨£çš„ font-family */
         font-style: normal;
         font-weight: 500;
         src: local("Noto Sans CJK TC Medium");
@@ -45,7 +45,7 @@
 
     @font-face {
         font-family: MyCustomFont;
-        /* ¦P¼Ëªº font-family */
+        /* åŒæ¨£çš„ font-family */
         font-style: normal;
         font-weight: 700;
         src: local("Noto Sans CJK TC Bold");
@@ -53,7 +53,7 @@
 
     @font-face {
         font-family: MyCustomFont;
-        /* ¦P¼Ëªº font-family */
+        /* åŒæ¨£çš„ font-family */
         font-style: normal;
         font-weight: 900;
         src: local("Noto Sans CJK TC Black");

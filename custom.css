@@ -4,35 +4,33 @@
         ;
     }
 
-    @font-face {
+     @font-face {
         font-family: MyCustomFont;
-        /* ¦P¼Ëªº font-family */
+        /* åŒæ¨£çš„ font-family */
         font-style: normal;
-        font-weight: normal;
-        src: local("·L³n¥¿¶ÂÅé"), local("·s²Ó©úÅé");
+        src: local("å¾®è»Ÿæ­£é»‘é«”");
     }
 
     @font-face {
         font-family: MyCustomFont;
-        /* ¦P¼Ëªº font-family */
+        /* åŒæ¨£çš„ font-family */
         font-style: normal;
         font-weight: bold;
-        src: local("·L³n¥¿¶ÂÅé Bold"), local("·s²Ó©úÅé");
+        src: local("å¾®è»Ÿæ­£é»‘é«” Bold");
     }
 
     @font-face {
         font-family: MyCustomFont;
-        /* ¦P¼Ëªº font-family */
+        /* åŒæ¨£çš„ font-family */
         font-style: normal;
-        font-weight: normal;
-        src: local("Verdana"), local("Arial");
+        src: local("Verdana");
     }
 
     @font-face {
         font-family: MyCustomFont;
-        /* ¦P¼Ëªº font-family */
+        /* åŒæ¨£çš„ font-family */
         font-style: normal;
         font-weight: bold;
-        src: local("Verdana Bold"), local("Arial Bold");
+        src: local("Verdana Bold");
     }
 }

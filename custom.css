@@ -1,61 +1,117 @@
 @-moz-document regexp("^(?!.*91pu.com.tw/song).*$") {
-    *:not([class*="icon"]):not(i) {
-        font-family: MyCustomFont,'FontAwesome', 'Material Icons Extended','Material-Design-Icons','QualcommIcon','VideoJS','icons101','AmebaNewSymbols', sans-serif !important;
-    }
+      *
+      {
+          font-family: Arial, "Microsoft YaHei" , 'FontAwesome' , 'Material Icons Extended' , 'Material-Design-Icons' , 'QualcommIcon' , 'VideoJS' , 'icons101' , 'AmebaNewSymbols' , sans-serif !important;
+      }
 
-    @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 100;
-        src: local("Noto Sans CJK TC Thin");
-    }
+      @font-face
+      {
+          font-family: Arial;
+          font-style: normal;
+          font-weight: 100;
+          src: local("Noto Sans CJK TC Thin");
+      }
 
-    @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 200;
-        src: local("Noto Sans CJK TC Light");
-    }
+      @font-face
+      {
+          font-family: Arial;
+          font-style: normal;
+          font-weight: 200;
+          src: local("Noto Sans CJK TC Light");
+      }
 
-    @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 300;
-        src: local("Noto Sans CJK TC DemiLight");
-    }
+      @font-face
+      {
+          font-family: Arial;
+          font-style: normal;
+          font-weight: 300;
+          src: local("Noto Sans CJK TC DemiLight");
+      }
 
-    @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 400;
-        src: local("Noto Sans CJK TC Regular");
-    }
+      @font-face
+      {
+          font-family: Arial;
+          font-style: normal;
+          font-weight: 400;
+          src: local("Noto Sans CJK TC Regular");
+      }
 
-    @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 500;
-        src: local("Noto Sans CJK TC Medium");
-    }
+      @font-face
+      {
+          font-family: Arial;
+          font-style: normal;
+          font-weight: 500;
+          src: local("Noto Sans CJK TC Medium");
+      }
 
-    @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 700;
-        src: local("Noto Sans CJK TC Bold");
-    }
+      @font-face
+      {
+          font-family: Arial;
+          font-style: normal;
+          font-weight: 700;
+          src: local("Noto Sans CJK TC Bold");
+      }
 
-    @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 900;
-        src: local("Noto Sans CJK TC Black");
-    }
+      @font-face
+      {
+          font-family: Arial;
+          font-style: normal;
+          font-weight: 900;
+          src: local("Noto Sans CJK TC Black");
+      }
+      @font-face
+      {
+          font-family: "Microsoft YaHei";
+          font-style: normal;
+          font-weight: 100;
+          src: local("Noto Sans CJK TC Thin");
+      }
+
+      @font-face
+      {
+          font-family: "Microsoft YaHei";
+          font-style: normal;
+          font-weight: 200;
+          src: local("Noto Sans CJK TC Light");
+      }
+
+      @font-face
+      {
+          font-family: "Microsoft YaHei";
+          font-style: normal;
+          font-weight: 300;
+          src: local("Noto Sans CJK TC DemiLight");
+      }
+
+      @font-face
+      {
+          font-family: "Microsoft YaHei";
+          font-style: normal;
+          font-weight: 400;
+          src: local("Noto Sans CJK TC Regular");
+      }
+
+      @font-face
+      {
+          font-family: "Microsoft YaHei";
+          font-style: normal;
+          font-weight: 500;
+          src: local("Noto Sans CJK TC Medium");
+      }
+
+      @font-face
+      {
+          font-family: "Microsoft YaHei";
+          font-style: normal;
+          font-weight: 700;
+          src: local("Noto Sans CJK TC Bold");
+      }
+
+      @font-face
+      {
+          font-family: "Microsoft YaHei";
+          font-style: normal;
+          font-weight: 900;
+          src: local("Noto Sans CJK TC Black");
+      }
 }

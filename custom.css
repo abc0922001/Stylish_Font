@@ -1,30 +1,8 @@
 @-moz-document regexp("^(?!.*91pu.com.tw/song).*$") {
-    body {
-        text-shadow: 0.001em 0.001em 0.001em !important;
-    }
-    * {
-        font-family: Arial, "Microsoft YaHei", 'FontAwesome', 'Material Icons Extended', 'Material-Design-Icons', 'QualcommIcon', 'VideoJS', 'icons101', sans-serif !important;
-    }
-    @font-face {
-        font-family: "Microsoft YaHei";
-        font-style: normal;
-        src: local("微軟正黑體");
-    }
-    @font-face {
-        font-family: "Microsoft YaHei";
-        font-style: normal;
-        font-weight: bold;
-        src: local("微軟正黑體 Blod");
-    }
-    @font-face {
-        font-family: Arial;
-        font-style: normal;
-        src: local("Verdana");
-    }
-    @font-face {
-        font-family: Arial;
-        font-style: normal;
-        font-weight: bold;
-        src: local("Verdana Blod");
-    }
+     body {
+         text-shadow: 0.001em 0.001em 0.001em !important;
+     }
+     * {
+         font-family: "Verdana", "微軟正黑體", 'FontAwesome', 'Material Icons Extended', 'Material-Design-Icons', 'QualcommIcon', 'VideoJS', 'icons101', sans-serif !important;
+     }
 }

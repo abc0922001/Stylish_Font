@@ -1,7 +1,7 @@
 @-moz-document regexp("^(?!.*91pu.com.tw/song).*$") {
       *
       {
-          font-family: Arial, "Microsoft YaHei" , 'FontAwesome' , 'Material Icons Extended' , 'Material-Design-Icons' , 'QualcommIcon' , 'VideoJS' , 'icons101' , 'AmebaNewSymbols' , sans-serif !important;
+          font-family: Arial, "Microsoft YaHei" , 'FontAwesome' , 'Material Icons Extended' , 'Material-Design-Icons' , 'QualcommIcon' , 'VideoJS' , 'icons101' , 'AmebaNewSymbols','weibo', sans-serif !important;
       }
 
       @font-face

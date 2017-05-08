@@ -1,4 +1,10 @@
 @-moz-document regexp("^(?!.*91pu.com.tw/song).*$") {
+    /* Noto Serif CJK TC*/
+    /*@font-face {
+        font-family: "Courier";
+        src: local("Noto Sans CJK TC");
+    }*/
+
     @font-face {
         font-family: "MingLiU";
         src: local("Noto Sans Mono CJK TC");

@@ -1,61 +1,374 @@
-@-moz-document regexp("^(?!.*91pu.com.tw/song).*$") {
-    *:not([class*="icon"]):not(i) {
-        font-family:'FontAwesome', 'Material Icons Extended','Material-Design-Icons','QualcommIcon','VideoJS','icons101','AmebaNewSymbols','videofont','ohpOffice365Icons', MyCustomFont ,Arial, sans-serif !important;
-    }
-
+/* Normal Font Weight */
+ 
     @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 100;
-        src: local("Noto Sans CJK TC Thin");
+        font-family: "Times New Roman";
+        unicode-range: U+4E00-9FFF;
+        src: local("H-SiuNiu");
     }
-
+   
     @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 200;
-        src: local("Noto Sans CJK TC Light");
+        font-family: "Arial";
+        unicode-range: U+4E00-9FFF;
+        src: local("Noto Sans CJK TC");
     }
-
+   
     @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 300;
-        src: local("Noto Sans CJK TC DemiLight");
+        font-family: "Arial Unicode MS";
+        unicode-range: U+4E00-9FFF;
+        src: local("Noto Sans CJK TC");
     }
-
+   
     @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 400;
-        src: local("Noto Sans CJK TC Regular");
+        font-family: "Courier";
+        unicode-range: U+4E00-9FFF;
+        src: local("Noto Sans CJK TC");
     }
-
+ 
     @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 500;
-        src: local("Noto Sans CJK TC Medium");
+        font-family: "monospace";
+        src: local("Noto Sans Mono CJK TC");
     }
-
+   
     @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 700;
-        src: local("Noto Sans CJK TC Bold");
+        font-family: "SimSun";
+        src: local("Noto Sans CJK SC");
     }
-
+ 
     @font-face {
-        font-family: MyCustomFont;
-        /* 同樣的 font-family */
-        font-style: normal;
-        font-weight: 900;
-        src: local("Noto Sans CJK TC Black");
+        font-family: "宋体";
+        src: local("Noto Sans CJK SC");
     }
-}
+ 
+    @font-face {
+        font-family: "SimHei";
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "NSimSun";
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "FangSong";
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "KaiTi";
+        src: local("DFKai-SB");
+    }
+ 
+    @font-face {
+        font-family: "楷体";
+        src: local("DFKai-SB");
+    }
+ 
+    @font-face {
+        font-family: "Microsoft YaHei";
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "Microsoft YaHei UI";
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "微软雅黑";
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "黑体";
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "PMingLiU";
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "新細明體";
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "微軟正黑體";
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "Microsoft JhengHei";
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "Microsoft JhengHei UI";
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    /* 來自 ccs.hanzi.co 的解決方案，但目前似乎在回退機制上有點問題出現，解除註解可以讓 KillsSerif Style 處理這些字型 */
+    @font-face {
+        font-family: "Biaodian Pro Sans";
+        src: local("Noto Sans CJK TC");
+    }
+   
+    @font-face {
+        font-family: "Biaodian Pro Serif";
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "Biaodian Pro Sans CNS";
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "Biaodian Pro Serif CNS";
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "Biaodian Pro Sans GB";
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "Biaodian Pro Serif GB";
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "Biaodian Sans";
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "Biaodian Serif";
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    /* 細明體是 Windows 系統下的中文等寬字型，因此如非必要，不建議替換成黑體 */
+    @font-face {
+        font-family: "MingLiU";
+        src: local("Noto Sans Mono CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "細明體";
+        src: local("Noto Sans Mono CJK TC");
+    }
+   
+    /* 針對蘋果作業系統 */
+    @font-face {
+        font-family: "Heiti TC";
+        src: local("Noto Sans CJK TC");
+    }
+   
+    @font-face {
+        font-family: "Heiti SC";
+        src: local("Noto Sans CJK SC");
+    }
+   
+   
+   
+    /* Bold Font Weight */
+ 
+    @font-face {
+        font-family: "Times New Roman";
+        font-weight: Bold;
+        unicode-range: U+4E00-9FFF;
+        src: local("H-SiuNiu");
+    }
+   
+    @font-face {
+        font-family: "Arial";
+        font-weight: Bold;
+        unicode-range: U+4E00-9FFF;
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "monospace";
+        font-weight: Bold;
+        src: local("Noto Sans Mono CJK TC");
+    }
+   
+    @font-face {
+        font-family: "SimSun";
+        font-weight: Bold;
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "宋体";
+        font-weight: Bold;
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "SimHei";
+        font-weight: Bold;
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "NSimSun";
+        font-weight: Bold;
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "FangSong";
+        font-weight: Bold;
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "KaiTi";
+        font-weight: Bold;
+        src: local("DFKai-SB");
+    }
+ 
+    @font-face {
+        font-family: "楷体";
+        font-weight: Bold;
+        src: local("DFKai-SB");
+    }
+ 
+    @font-face {
+        font-family: "Microsoft YaHei";
+        font-weight: Bold;
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "Microsoft YaHei UI";
+        font-weight: Bold;
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "微软雅黑";
+        font-weight: Bold;
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "黑体";
+        font-weight: Bold;
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    @font-face {
+        font-family: "PMingLiU";
+        font-weight: Bold;
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "新細明體";
+        font-weight: Bold;
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "微軟正黑體";
+        font-weight: Bold;
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "Microsoft JhengHei";
+        font-weight: Bold;
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "Microsoft JhengHei UI";
+        font-weight: Bold;
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    /* 來自 ccs.hanzi.co 的解決方案，但目前似乎在回退機制上有點問題出現，解除註解可以讓 KillsSerif Style 處理這些字型 */
+    @font-face {
+        font-family: "Biaodian Pro Sans";
+        font-weight: Bold;
+        src: local("Noto Sans CJK TC");
+    }
+   
+    @font-face {
+        font-family: "Biaodian Pro Serif";
+        font-weight: Bold;
+        src: local("Noto Sans CJK TC");
+    }
+   
+    @font-face {
+        font-family: "Biaodian Pro Sans CNS";
+        font-weight: Bold;
+        src: local("Noto Sans CJK TC");
+    }
+   
+    @font-face {
+        font-family: "Biaodian Pro Serif CNS";
+        font-weight: Bold;
+        src: local("Noto Sans CJK TC");
+    }
+   
+    @font-face {
+        font-family: "Biaodian Pro Sans GB";
+        font-weight: Bold;
+        src: local("Noto Sans CJK SC");
+    }
+   
+    @font-face {
+        font-family: "Biaodian Pro Serif GB";
+        font-weight: Bold;
+        src: local("Noto Sans CJK SC");
+    }
+   
+    @font-face {
+        font-family: "Biaodian Sans";
+        font-weight: Bold;
+        src: local("Noto Sans CJK TC");
+    }
+   
+    @font-face {
+        font-family: "Biaodian Serif";
+        font-weight: Bold;
+        src: local("Noto Sans CJK TC");
+    }
+ 
+    /* 細明體是 Windows 系統下的中文等寬字型，因此如非必要，不建議替換成黑體 */
+    @font-face {
+        font-family: "MingLiU";
+        font-weight: Bold;
+        src: local("Noto Sans Mono CJK TC");
+    }
+ 
+    @font-face {
+        font-family: "細明體";
+        font-weight: Bold;
+        src: local("Noto Sans Mono CJK TC");
+    }
+   
+    /* 針對蘋果作業系統 */
+    @font-face {
+        font-family: "Heiti TC";
+        font-weight: Bold;
+        src: local("Noto Sans CJK TC");
+    }
+   
+    @font-face {
+        font-family: "Heiti SC";
+        font-weight: Bold;
+        src: local("Noto Sans CJK SC");
+    }
+ 
+    /* 文字陰影效果，開啟後會有文字加粗的感覺，粗度建議範圍 0.001~0.01em */
+    body {
+        /*text-shadow: 0 0 0.021em;*/
+      -webkit-text-stroke-width: 0.0250em;
+    }

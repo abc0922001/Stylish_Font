@@ -1,8 +1,8 @@
+@-moz-document regexp("^(?!.*91pu.com.tw/song).*$") {
     @font-face {
         font-family: "MingLiU";
         src: local("Noto Sans Mono CJK TC");
     }
- 
     @font-face {
         font-family: "細明體";
         src: local("Noto Sans Mono CJK TC");
@@ -11,14 +11,22 @@
         font-family: "monospace";
         src: local("Noto Sans Mono CJK TC");
     }
-       @font-face {
+    @font-face {
         font-family: "Arial Unicode MS";
         unicode-range: U+4E00-9FFF;
         src: local("Noto Sans CJK TC");
     }
-   
     @font-face {
         font-family: "Courier";
         unicode-range: U+4E00-9FFF;
         src: local("Noto Sans CJK TC");
     }
+    @font-face {
+        font-family: Arial;
+        src: local("Noto Sans CJK TC");
+    }
+    @font-face {
+        font-family: sans-serif;
+        src: local("Noto Sans CJK TC");
+    }
+}

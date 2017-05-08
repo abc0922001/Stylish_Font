@@ -4,6 +4,11 @@
     font-family: "Courier";
     src: local("Noto Sans CJK TC");
 }*/
+
+@font-face {
+    font-family: Source Sans Pro;
+    src: local("Noto Sans CJK TC");
+}
 @font-face {
     font-family: Roboto;
     src: local("Noto Sans CJK TC");
@@ -21,7 +26,11 @@
     src: local("Noto Sans CJK TC");
 }
 @font-face {
-    font-family: Helvetica;
+    font-family: "Helvetica";
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "Helvetica Neue";
     src: local("Noto Sans CJK TC");
 }
 @font-face {
@@ -69,6 +78,30 @@
     src: local("Noto Sans Mono CJK TC");
 }
 @font-face {
+    font-family: "Microsoft YaHei";
+    src: local("Noto Sans CJK SC");
+}
+@font-face {
+    font-family: "微軟雅黑";
+    src: local("Noto Sans CJK SC");
+}
+@font-face {
+    font-family: "STHeiti";
+    src: local("Noto Sans CJK SC");
+}
+@font-face {
+    font-family: "Tahoma";
+    src: local("Noto Sans CJK SC");
+}
+@font-face {
+    font-family: "SimHei";
+    src: local("Noto Sans CJK SC");
+}
+@font-face {
+    font-family: "Hiragino Sans GB";
+    src: local("Noto Sans CJK SC");
+}
+@font-face {
     font-family: "Arial Unicode MS";
     unicode-range: U+4E00-9FFF;
     src: local("Noto Sans CJK TC");
@@ -78,5 +111,10 @@
     unicode-range: U+4E00-9FFF;
     src: local("Noto Sans CJK TC");
 }
-
+/*Bold*/
+/*@font-face {
+    font-family: Roboto;
+    font-weight: bold;
+    src: local("Noto Sans CJK TC");
+}*/
 }

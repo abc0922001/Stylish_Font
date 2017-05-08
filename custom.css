@@ -6,6 +6,51 @@
 }*/
 
 @font-face {
+    font-family: "SimSun";
+    font-weight: 400;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "宋体";
+    font-weight: 400;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "SimHei";
+    font-weight: 400;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "NSimSun";
+    font-weight: 400;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "FangSong";
+    font-weight: 400;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "KaiTi";
+    font-weight: 400;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "楷体";
+    font-weight: 400;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "DFKai-SB";
+    font-weight: 400;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "Microsoft JHengHei UI";
+    font-weight: 400;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
     font-family: "微軟正黑體";
     font-weight: 400;
     src: local("Noto Sans CJK TC");
@@ -204,6 +249,51 @@
 }
 /*900*/
 
+@font-face {
+    font-family: "SimSun";
+    font-weight: 900;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "宋体";
+    font-weight: 900;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "SimHei";
+    font-weight: 900;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "NSimSun";
+    font-weight: 900;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "FangSong";
+    font-weight: 900;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "KaiTi";
+    font-weight: 900;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "楷体";
+    font-weight: 900;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "DFKai-SB";
+    font-weight: 900;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "Microsoft JHengHei UI";
+    font-weight: 900;
+    src: local("Noto Sans CJK TC");
+}
 @font-face {
     font-family: "微軟正黑體";
     font-weight: 900;
@@ -404,6 +494,51 @@
 /*100*/
 
 @font-face {
+    font-family: "SimSun";
+    font-weight: 100;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "宋体";
+    font-weight: 100;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "SimHei";
+    font-weight: 100;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "NSimSun";
+    font-weight: 100;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "FangSong";
+    font-weight: 100;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "KaiTi";
+    font-weight: 100;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "楷体";
+    font-weight: 100;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "DFKai-SB";
+    font-weight: 100;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "Microsoft JHengHei UI";
+    font-weight: 100;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
     font-family: "微軟正黑體";
     font-weight: 100;
     src: local("Noto Sans CJK TC");
@@ -602,6 +737,51 @@
 }
 /*200*/
 
+@font-face {
+    font-family: "SimSun";
+    font-weight: 200;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "宋体";
+    font-weight: 200;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "SimHei";
+    font-weight: 200;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "NSimSun";
+    font-weight: 200;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "FangSong";
+    font-weight: 200;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "KaiTi";
+    font-weight: 200;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "楷体";
+    font-weight: 200;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "DFKai-SB";
+    font-weight: 200;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "Microsoft JHengHei UI";
+    font-weight: 200;
+    src: local("Noto Sans CJK TC");
+}
 @font-face {
     font-family: "微軟正黑體";
     font-weight: 200;
@@ -802,6 +982,51 @@
 /*300*/
 
 @font-face {
+    font-family: "SimSun";
+    font-weight: 300;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "宋体";
+    font-weight: 300;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "SimHei";
+    font-weight: 300;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "NSimSun";
+    font-weight: 300;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "FangSong";
+    font-weight: 300;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "KaiTi";
+    font-weight: 300;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "楷体";
+    font-weight: 300;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "DFKai-SB";
+    font-weight: 300;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "Microsoft JHengHei UI";
+    font-weight: 300;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
     font-family: "微軟正黑體";
     font-weight: 300;
     src: local("Noto Sans CJK TC");
@@ -1001,6 +1226,51 @@
 /*500*/
 
 @font-face {
+    font-family: "SimSun";
+    font-weight: 500;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "宋体";
+    font-weight: 500;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "SimHei";
+    font-weight: 500;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "NSimSun";
+    font-weight: 500;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "FangSong";
+    font-weight: 500;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "KaiTi";
+    font-weight: 500;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "楷体";
+    font-weight: 500;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "DFKai-SB";
+    font-weight: 500;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "Microsoft JHengHei UI";
+    font-weight: 500;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
     font-family: "微軟正黑體";
     font-weight: 500;
     src: local("Noto Sans CJK TC");
@@ -1199,6 +1469,51 @@
 }
 /*700*/
 
+@font-face {
+    font-family: "SimSun";
+    font-weight: 700;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "宋体";
+    font-weight: 700;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "SimHei";
+    font-weight: 700;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "NSimSun";
+    font-weight: 700;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "FangSong";
+    font-weight: 700;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "KaiTi";
+    font-weight: 700;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "楷体";
+    font-weight: 700;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "DFKai-SB";
+    font-weight: 700;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "Microsoft JHengHei UI";
+    font-weight: 700;
+    src: local("Noto Sans CJK TC");
+}
 @font-face {
     font-family: "微軟正黑體";
     font-weight: 700;

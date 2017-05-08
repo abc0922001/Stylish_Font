@@ -70,6 +70,14 @@
     src: local("Noto Sans CJK JP");
 }
 @font-face {
+    font-family: "Hiragino Kaku Gothic ProN";
+    src: local("Noto Sans CJK JP");
+}
+@font-face {
+    font-family: "ＭＳ Ｐゴシック";
+    src: local("Noto Sans CJK JP");
+}
+@font-face {
     font-family: "メイリオ";
     src: local("Noto Sans CJK JP");
 }

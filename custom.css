@@ -6,6 +6,30 @@
 }*/
 
 @font-face {
+    font-family: "Open Sans";
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "lucida grande";
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "Segoe UI";
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: verdana;
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "lucida sans unicode";
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
+    font-family: "Tahoma";
+    src: local("Noto Sans CJK TC");
+}
+@font-face {
     font-family: Source Sans Pro;
     src: local("Noto Sans CJK TC");
 }
@@ -90,11 +114,15 @@
     src: local("Noto Sans CJK SC");
 }
 @font-face {
-    font-family: "Tahoma";
+    font-family: "SimHei";
     src: local("Noto Sans CJK SC");
 }
 @font-face {
-    font-family: "SimHei";
+    font-family: "PingFang SC";
+    src: local("Noto Sans CJK SC");
+}
+@font-face {
+    font-family: "WenQuanYi Micro Hei";
     src: local("Noto Sans CJK SC");
 }
 @font-face {

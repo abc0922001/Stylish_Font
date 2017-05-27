@@ -1,4 +1,4 @@
-@-moz-document regexp("^(?!.*regex101)(?!.*91pu.com.tw/song).*$") {
+@-moz-document regexp("^(?!.*91pu.com.tw/song).*$") {
 *:not([class*="icon"]):not(i) {
     font-family: MyCustomFont, 'FontAwesome', 'Material Icons Extended', 'Material-Design-Icons', 'QualcommIcon', 'VideoJS', 'icons101', 'AmebaNewSymbols', 'videofont', 'ohpOffice365Icons', "anchorjs-icons", Arial !important;
 }

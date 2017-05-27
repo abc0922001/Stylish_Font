@@ -1,6 +1,9 @@
 *:not([class*="icon"]):not(i) {
     font-family: "English", MyCustomFont, 'FontAwesome', 'Material Icons Extended', 'Material-Design-Icons', 'QualcommIcon', 'VideoJS', 'icons101', 'AmebaNewSymbols', 'videofont', 'ohpOffice365Icons', "anchorjs-icons", Arial !important;
 }
+* {
+	-webkit-text-stroke: 0.0200em !important;
+}
 @font-face {
     font-family: "English";
     /* 同樣的 font-family */

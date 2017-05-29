@@ -1,6 +1,6 @@
 *:not([class*="icon"]):not(i) {
-    font-family: 'Roboto', 'Noto Sans CJK TC', 'FontAwesome', 'Material Icons Extended', 'Material-Design-Icons', 'QualcommIcon', 'VideoJS', 'icons101', 'AmebaNewSymbols', 'videofont', 'ohpOffice365Icons', "anchorjs-icons", Arial !important;
+    font-family:'Sahitya','Noto Serif CJK TC', 'FontAwesome', 'Material Icons Extended', 'Material-Design-Icons', 'QualcommIcon', 'VideoJS', 'icons101', 'AmebaNewSymbols', 'videofont', 'ohpOffice365Icons', 'anchorjs-icons', Arial !important;
 }
-* {
+*{
 	-webkit-text-stroke: 0.0150em;
 }

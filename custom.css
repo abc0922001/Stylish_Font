@@ -1,4 +1,4 @@
-@-moz-document regexp("^(?!.*91pu.com.tw/song)(?!.*ws.ptt.cc/bbs).*$") {
+@-moz-document regexp("^(?!.*91pu.com.tw/song)(?!.*ptt.cc).*$") {
 *:not([class*="icon"]):not(i) {
     font-family: 'Noto Sans CJK TC', 'FontAwesome', 'Material Icons Extended', 'Material-Design-Icons', 'QualcommIcon', 'VideoJS', 'icons101', 'AmebaNewSymbols', 'videofont', 'ohpOffice365Icons', "anchorjs-icons", 'consumer-icons', 'tm-detail-font', 'iconfont', 'FabricMDL2Icons', 'Noto Emoji', Arial !important;
 }

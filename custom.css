@@ -1,6 +1,6 @@
 @-moz-document regexp("^(?!.*91pu.com.tw/song)(?!.*term.ptt.cc).*$") {
     *:not([class*="icon"]):not(i) {
-        font-family: 'Verdana', '微軟正黑體', 'FontAwesome', 'Material Icons Extended', 'Material-Design-Icons', 'QualcommIcon', 'VideoJS', 'icons101', 'AmebaNewSymbols', 'videofont', 'ohpOffice365Icons', "anchorjs-icons", "tm-detail-font", Arial !important;
+        font-family: 'Verdana', '微軟正黑體', 'FontAwesome', 'Material Icons Extended', 'Material-Design-Icons', 'QualcommIcon', 'VideoJS', 'icons101', 'AmebaNewSymbols', 'videofont', 'ohpOffice365Icons', "anchorjs-icons", "tm-detail-font", "fave-cnn-icons", Arial !important;
     }
     * {
         -webkit-text-stroke: 0.0300em

@@ -1,42 +1,8 @@
 :not([class*=icon]):not(i) {
-    font-family: "MiSans TC VF", "MiSans TC", "MiSans", FontAwesome, 'Material Icons Extended', Material-Design-Icons, QualcommIcon, VideoJS, icons101, AmebaNewSymbols, videofont, ohpOffice365Icons, anchorjs-icons, consumer-icons, tm-detail-font, iconfont, FabricMDL2Icons, MWF-MDL2, 'Noto Emoji', Arial!important;
-    font-stretch: 50% 200%;
+    font-family: "MiSans TC VF", "MiSans VF", "新細明體", 'FontAwesome', 'Material Icons Extended', 'Material-Design-Icons', 'QualcommIcon', 'VideoJS', 'icons101', 'AmebaNewSymbols', 'videofont', 'ohpOffice365Icons', 'anchorjs-icons', 'consumer-icons', 'tm-detail-font', 'iconfont', 'FabricMDL2Icons', 'MWF-MDL2', 'Noto Emoji', 'Arial'!important;
+    font-variant: no-common-ligatures proportional-nums;
+    font-optical-sizing: none;
+    font-kerning: none;
+    -webkit-font-smoothing: antialiased!important;
+    text-rendering: optimizeSpeed!important;
 }
-
-body,
-button,
-input,
-select,
-textarea {
-    font-family: 'MiSans TC VF', sans-serif;
-    font-variation-settings: 'wght' 400, 'wdth' 100;
-}
-
-h1 {
-    font-variation-settings: 'wght' 900, 'wdth' 100;
-}
-h2 {
-    font-variation-settings: 'wght' 800, 'wdth' 100;
-}
-h3 {
-    font-variation-settings: 'wght' 700, 'wdth' 100;
-}
-h4 {
-    font-variation-settings: 'wght' 600, 'wdth' 100;
-}
-h5 {
-    font-variation-settings: 'wght' 500, 'wdth' 100;
-}
-h6 {
-    font-variation-settings: 'wght' 400, 'wdth' 100;
-}
-
-/* 其他元素字重設定 */
-b,
-strong {
-    font-variation-settings: 'wght' 700, 'wdth' 100;
-}
-th {
-    font-variation-settings: 'wght' 600, 'wdth' 100;
-}
-/* ... 以此類推，直到達到 9 種或更多字重設定 */

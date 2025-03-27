@@ -1,5 +1,3 @@
-@-moz-document regexp("^(?!.*term.ptt.cc/)(?!.*91pu.com.tw/song)(?!.*guitarians.com)(?!.*docs.google.com)(?!.*yuantabank.com)(?!.*github.com)(?!.*d2r.world).*$") {
-/* 假設你有不同語系的字體檔，這裡以新細明體為例，但實際上你需要替換成各語系專用的版本 */
 html {
     --main-font: "Noto Sans CJK TC";
 }
@@ -7,18 +5,37 @@ html:lang(zh-TW) {
     --main-font: "Noto Sans CJK TC";
     /* 例如專用的繁體版本 */
 }
-html:lang(zh-CN) {
-    --main-font: "Noto Sans CJK SC";
-    /* 例如專用的簡體版本 */
+
+html:lang(zh-hant) {
+    --main-font: "Noto Sans CJK TC";
+    /* 例如專用的繁體版本 */
 }
-html:lang(zh-HK) {
-    --main-font: "Noto Sans CJK HK";
-    /* 例如專用的香港版本 */
-}
+
 html:lang(jp) {
     --main-font: "Noto Sans CJK JP";
     /* 例如專用的日文版本 */
 }
+
+html:lang(ko) {
+    --main-font: "Noto Sans CJK KR";
+    /* 例如專用的韓文版本 */
+}
+
+html:lang(zh-CN) {
+    --main-font: "Noto Sans CJK SC";
+    /* 例如專用的簡體版本 */
+}
+
+html:lang(zh-hans) {
+    --main-font: "Noto Sans CJK SC";
+    /* 例如專用的簡體版本 */
+}
+
+html:lang(zh-HK) {
+    --main-font: "Noto Sans CJK HK";
+    /* 例如專用的香港版本 */
+}
+
 
 /* 主要內容使用變數 */
 :not([class*=icon]):not(i) {
@@ -29,5 +46,4 @@ html:lang(jp) {
 pre,
 code {
     font-family: 'Intel One Mono', 'Cascadia Mono', 'JetBrains Mono', 'Consolas', "等距更紗黑體 TC", Consolas, "Courier New", monospace !important;
-}
 }

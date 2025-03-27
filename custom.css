@@ -11,7 +11,7 @@ html:lang(zh-hant) {
     /* 例如專用的繁體版本 */
 }
 
-html:lang(jp) {
+html:lang(ja) {
     --main-font: "Noto Sans CJK JP";
     /* 例如專用的日文版本 */
 }

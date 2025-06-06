@@ -40,7 +40,6 @@ html {
 /* 一般文字，支援字重變化 */
 :not([class*="icon"]):not(i) {
     font-family: 'Be Vietnam Pro', var(--noto-sans), sans-serif !important;
-    font-weight: inherit !important;
     font-variant: no-common-ligatures proportional-nums;
     font-optical-sizing: none;
     font-kerning: none;
@@ -56,14 +55,12 @@ h4,
 h5,
 h6 {
     font-family: var(--noto-serif), serif !important;
-    font-weight: inherit !important;
 }
 
 /* 程式碼區塊使用等寬字體（Intel One Mono） */
 pre,
 code {
     font-family: var(--noto-mono), Consolas, "Courier New", monospace !important;
-    font-weight: inherit !important;
 }
 
 /* 排除常用 icon 類別，恢復其原有字體 */

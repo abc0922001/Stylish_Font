@@ -1,39 +1,32 @@
 @-moz-document regexp("^(?!.*term.ptt.cc/)(?!.*91pu.com.tw/song)(?!.*guitarians.com)(?!.*docs.google.com)(?!.*yuantabank.com)(?!.*github.com)(?!.*d2r.world).*$") {
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@100..900&family=Noto+Sans+Mono:wght@100..900&display=swap");
-
 /* 根據語系切換 Sans 主字體 */
 [lang="zh-CN" i],
 [lang="zh" i],
 [lang="zh-hans" i] {
     --noto-sans: "Noto Sans CJK SC";
-    --noto-serif: "Noto Serif SC";
 }
 
 [lang="ko" i] {
-    --noto-sans: "Noto Sans KR";
+    --noto-sans: "Noto Sans CJK KR";
 }
 
 [lang="ja" i],
 [lang="jp" i] {
     --noto-sans: "Noto Sans CJK JP";
-    --noto-serif: "Noto Serif JP";
 }
 
 [lang="zh-HK" i] {
     --noto-sans: "Noto Sans CJK HK";
-    --noto-serif: "Noto Serif TC";
 }
 
 [lang="zh-TW" i],
 [lang="zh-hant" i] {
     --noto-sans: "源石黑體月";
-    --noto-serif: "Noto Serif TC";
 }
 
 /* 預設語言：繁體中文 */
 html {
     --noto-sans: "源石黑體月";
-    --noto-serif: "Noto Serif TC";
     --noto-mono: "Intel One Mono";
 }
 
@@ -45,16 +38,6 @@ html {
     font-kerning: none;
     -webkit-font-smoothing: antialiased !important;
     text-rendering: optimizeSpeed !important;
-}
-
-/* 標題使用襯線字體，同樣支援可變字重 */
-[lang] h1,
-[lang] h2,
-[lang] h3,
-[lang] h4,
-[lang] h5,
-[lang] h6 {
-    font-family: var(--noto-serif), serif !important;
 }
 
 /* 程式碼區塊使用等寬字體（Intel One Mono） */

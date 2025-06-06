@@ -2,30 +2,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@100..900&family=Noto+Sans+Mono:wght@100..900&display=swap");
 
 /* 根據語系切換 Sans 主字體 */
-html:lang(zh-CN),
-html:lang(zh),
-html:lang(zh-hans) {
+[lang="zh-CN" i],
+[lang="zh" i],
+[lang="zh-hans" i] {
     --noto-sans: "Noto Sans CJK SC";
     --noto-serif: "Noto Serif SC";
 }
 
-html:lang(ko) {
+[lang="ko" i] {
     --noto-sans: "Noto Sans KR";
 }
 
-html:lang(ja),
-html:lang(jp) {
+[lang="ja" i],
+[lang="jp" i] {
     --noto-sans: "Noto Sans CJK JP";
     --noto-serif: "Noto Serif JP";
 }
 
-html:lang(zh-HK) {
+[lang="zh-HK" i] {
     --noto-sans: "Noto Sans CJK HK";
     --noto-serif: "Noto Serif TC";
 }
 
-html:lang(zh-TW),
-html:lang(zh-hant) {
+[lang="zh-TW" i],
+[lang="zh-hant" i] {
     --noto-sans: "源石黑體月";
     --noto-serif: "Noto Serif TC";
 }
@@ -38,7 +38,7 @@ html {
 }
 
 /* 一般文字，支援字重變化 */
-:not([class*="icon"]):not(i) {
+[lang]:not([class*="icon"]):not(i) {
     font-family: 'Be Vietnam Pro', var(--noto-sans), sans-serif !important;
     font-variant: no-common-ligatures proportional-nums;
     font-optical-sizing: none;
@@ -48,12 +48,12 @@ html {
 }
 
 /* 標題使用襯線字體，同樣支援可變字重 */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+[lang] h1,
+[lang] h2,
+[lang] h3,
+[lang] h4,
+[lang] h5,
+[lang] h6 {
     font-family: var(--noto-serif), serif !important;
 }
 

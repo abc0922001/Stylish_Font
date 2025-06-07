@@ -45,11 +45,4 @@ pre,
 code {
     font-family: var(--noto-mono), Consolas, "Courier New", monospace !important;
 }
-
-/* 排除常用 icon 類別，恢復其原有字體 */
-.fa,
-.material-icons,
-.glyphicon {
-    font-family: inherit !important;
-}
 }
